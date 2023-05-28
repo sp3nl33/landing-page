@@ -1,0 +1,30 @@
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 0
+}
+
+.one{
+    background: #1f2937;
+    padding: 7em;
+   }
+
+.two{
+    background: white;
+    padding: 7em;
+}
+
+.three{
+    background: #e5e7eb;
+    padding: 5.5em;
+}
+
+.four{
+    background: white;
+    padding: 5em;
+}
+
+.five{
+    background: #1f2937;
+    padding: 1.5em;
+}
