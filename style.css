@@ -63,15 +63,13 @@ a, .right-head{
     padding-right: 5em;
     padding-bottom: 3em;
 }
-
-h1, .one-text{
+.one-h1{
     font-size: 48px;
     color: #f9faf8;
     font-family: 'Roboto', sans-serif;
     font-weight: 900;
 }
-
-p, .one-text{
+.one-p, .palm-trees-p{
     font-size: 18px;
     color: #e5e7eb;
     font-family: 'Roboto', sans-serif;
@@ -97,6 +95,40 @@ button{
 .two{
     background: white;
     padding: 7em;
+    display: flex;
+    flex-direction: column;
+   /* text-align: center; */
+}
+
+.two-title{
+    text-align: center;
+    font-size: 36px;
+    font-weight: 800;
+    color: #1f2937;
+    margin-top: -120px;
+}
+
+.boxy-bois{
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+}
+
+.boxy-1, .boxy-2, .boxy-3, .boxy-4{
+    border: 6px solid #3882f6;
+    border-radius: 20px;
+    height: 150px;
+    width: 150px;
+    max-height: 150px;
+    max-width: 150px;
+}
+
+.boxy-text{
+    display: flex;
+    justify-content: space space-around;
+    gap: 50px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
 }
 
 /* third block stuff */
