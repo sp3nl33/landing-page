@@ -136,7 +136,30 @@ button{
 .three{
     background: #e5e7eb;
     padding: 5.5em;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: -60px;
 }
+
+.the-quote{
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+.inspiring-quote{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: #1f2937;
+    font-style: italic;
+    font-size: 36px;
+}
+
+#Thor{
+    text-align: right;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
+
 
 /* fourth block stuff */
 
