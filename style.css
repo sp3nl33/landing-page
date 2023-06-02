@@ -20,26 +20,32 @@ nav{
     list-style-type: none;
     display: flex;
     margin-bottom: 1em;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
 .header-logo{
     font-size: 24px;
-    color: #f9faf8;
+    color: #ec89d7;
     font-family: 'Roboto', sans-serif;
 }
 
+
 .left-head{
     display: flex;
+    justify-content: flex-start;
     align-items: center;
+    flex: auto;
 }
 
 .right-head{
     display: flex;
     align-items: center;
-    gap: 10px;
+    justify-content: flex-end;
+    gap: 30px;
     font-size: 18px;
     font-family: 'Roboto', sans-serif;
+    flex: 1 0 auto;
+    padding-right: 1em;
 }
 
 a, .right-head{
@@ -59,7 +65,7 @@ a, .right-head{
     flex-direction: column;
     align-items: flex-start;
     max-width: 600px;
-    padding-left: 1em;
+    padding-left: 8em;
     padding-right: 5em;
     padding-bottom: 3em;
 }
@@ -68,12 +74,14 @@ a, .right-head{
     color: #f9faf8;
     font-family: 'Roboto', sans-serif;
     font-weight: 900;
+    margin-bottom: -9px;
 }
 .one-p, .palm-trees-p{
     font-size: 18px;
     color: #e5e7eb;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
+    font-style: italic;
 }
 
 button{
@@ -86,8 +94,10 @@ button{
     font-family: 'Roboto', sans-serif;
 }
 
+
 .palm-trees{
     max-width: 450px;
+    border-radius: 5px;
 }
 
 /* second block stuff */
@@ -110,8 +120,8 @@ button{
 
 .boxy-bois{
     display: flex;
-    justify-content: space-around;
-    gap: 50px;
+    justify-content: center;
+    gap: 200px;
 }
 
 .boxy-1, .boxy-2, .boxy-3, .boxy-4{
@@ -123,12 +133,18 @@ button{
     max-width: 150px;
 }
 
+.boxy-img{
+    width: 150px;
+    height: 150px;
+    border-radius: 13px ;
+}
+
 .boxy-text{
     display: flex;
-    justify-content: space space-around;
-    gap: 50px;
     text-align: center;
+    justify-content: center;
     font-family: 'Roboto', sans-serif;
+    gap: 270px;
 }
 
 /* third block stuff */
@@ -144,6 +160,7 @@ button{
 .the-quote{
     margin-left: 70px;
     margin-right: 70px;
+    text-align: center;
 }
 
 .inspiring-quote{
@@ -166,6 +183,8 @@ button{
 .four{
     background: white;
     padding: 5em;
+    justify-content: center;
+    display: flex;
 }
 
 .cta{
@@ -199,7 +218,7 @@ button{
 
 .cta-button{
     border: 2px solid white;
-    flex: 1 0 1;
+    flex: 1 0 auto;
     text-align: center;
     margin-right: 20px;
     padding-right: auto;
@@ -212,4 +231,9 @@ button{
 .five{
     background: #1f2937;
     padding: 1.5em;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    color: white;
+    font-size: 10px;
 }
