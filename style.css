@@ -92,21 +92,28 @@ button{
     max-width: 450px;
 }
 
+/* second block stuff */
 
 .two{
     background: white;
     padding: 7em;
 }
 
+/* third block stuff */
+
 .three{
     background: #e5e7eb;
     padding: 5.5em;
 }
 
+/* fourth block stuff */
+
 .four{
     background: white;
     padding: 5em;
 }
+
+/* fifth block stuff */
 
 .five{
     background: #1f2937;
